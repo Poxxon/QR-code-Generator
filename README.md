@@ -31,4 +31,4 @@ pip install qrcode[pil]
 
 #### To customize your own URL change this:
 ```python
-url = "https://github.com/Poxxon"```
+url = "https://github.com/Poxxon"
