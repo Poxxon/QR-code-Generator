@@ -8,11 +8,14 @@ def generate_qr_code(url, filename = "qr_code.png"):
     qr.add_data(url)
     qr.make(fit=True)
 
+    # Create an image from the QR code
     img = qr.make_image(fill_color="black", back_color="white")
 
+    # Save the image in the current directory
     img.save(filename)
     print(f"QR code saved as {filename}")
 
+# Example use (Pouya's github account)
 url = "https://github.com/Poxxon"
 generate_qr_code(url)
 
