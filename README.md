@@ -7,7 +7,7 @@ This Python script generates a QR code for a given URL using the `qrcode` librar
 - Allows customization of the output filename.
 - Saves the QR code image in PNG format.
 
-## Future customization:
+## Upcoming features (TBD):
 - Allowing user to input a URL through CLI or GUI rather than modifying parts of the code
 - Allowing to download through browser to your downloads directory rather than the source code directory
 
