@@ -15,7 +15,7 @@ def generate_qr_code(url, filename = "qr_code.png"):
     img.save(filename)
     print(f"QR code saved as {filename}")
 
-# Example use (Pouya's github account)
+# Example use ( Pouya's github account )
 url = "https://github.com/Poxxon"
 generate_qr_code(url)
 
